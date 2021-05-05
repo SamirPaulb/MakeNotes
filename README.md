@@ -6,7 +6,7 @@ Made a Note App . User can make important Note as well as save it for future ref
 
 ---
 
-![test image size](https://raw.githubusercontent.com/SamirPaul1/MakeNotes/main/makemynotes.png){:height="800px" width="600px"}
+![test image size](https://raw.githubusercontent.com/SamirPaul1/MakeNotes/main/makemynotes.png)
 
 
 ---
