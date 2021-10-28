@@ -8,7 +8,7 @@ User can make important Note as well as save it for future reference.You can mar
 
 ---
 
-![test image size](https://raw.githubusercontent.com/SamirPaul1/MakeNotes/main/makemynotes.png)
+![test image size](https://raw.githubusercontent.com/SamirPaul1/MakeNotes/main/demo.png)
 
 
 ---
