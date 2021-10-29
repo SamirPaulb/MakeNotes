@@ -91,7 +91,7 @@ function shownotes() {
     }
     else {
 
-        noteselem.innerHTML = `No notes ! click on Add notes to add`;
+        noteselem.innerHTML = `No Notes! click on 𝘼𝙙𝙙 𝙉𝙤𝙩𝙚 to add.`;
     }
     let noteCards = document.getElementsByClassName('notecard');
     Array.from(noteCards).forEach(function (element, idd) {
