@@ -59,8 +59,8 @@ function shownotes() {
                     <h5 class="card-title">Note ${id + 1}</h5>
                     <p class="card-text">${element}</p>
                     
-                    <button id="${id}" onclick="deletenotes(this.id)" class="btn btn-primary">Delete Note</button>
-                   <button id="ugt" onclick="markugt(${id})" class="btn btn-success  my-3">important</button>
+                    <button id="${id}" onclick="deletenotes(this.id)" class="btn btn-primary">𝘿𝙚𝙡𝙚𝙩𝙚 𝙉𝙤𝙩𝙚</button>
+                   <button id="ugt" onclick="markugt(${id})" class="btn btn-success  my-3">𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩</button>
                 </div>
             </div>
         `}
@@ -72,8 +72,8 @@ function shownotes() {
                     <h5 class="card-title">Note ${id + 1}</h5>
                     <p class="card-text">${element}</p>
                     
-                    <button id="${id}" onclick="deletenotes(this.id)" class="btn btn-primary">Delete Note</button>
-                   <button id="ugt" onclick="markugt(${id})" class="btn btn-danger  my-3">not important</button>
+                    <button id="${id}" onclick="deletenotes(this.id)" class="btn btn-primary">𝘿𝙚𝙡𝙚𝙩𝙚 𝙉𝙤𝙩𝙚</button>
+                   <button id="ugt" onclick="markugt(${id})" class="btn btn-danger  my-3">𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩</button>
                 </div>
             </div>
         `
