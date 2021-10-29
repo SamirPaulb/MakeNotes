@@ -101,15 +101,15 @@ function shownotes() {
 
 
             //cardTxt.innerText =
-            // "not important";
+            // "𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
             element.style.background = "#7bff00";
             element.style.color = "black";
 
-            //val.innerText="not important";
+            //val.innerText="𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
         }
         else {
 
-            // cardTxt.innerText = "important";
+            // cardTxt.innerText = "𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
             element.style.background = "white";
             element.style.color = "black";
 
@@ -120,7 +120,7 @@ function shownotes() {
 
 
 };
-// function to delete the notes
+// function to 𝘿𝙚𝙡𝙚𝙩𝙚 the notes
 function deletenotes(id) {
 
     let notes = localStorage.getItem("notes");
@@ -130,7 +130,7 @@ function deletenotes(id) {
     else {
         notesobj = JSON.parse(notes);
     }
-    notesobj.splice(id, 1);//delete element from index id to length 1
+    notesobj.splice(id, 1);//𝘿𝙚𝙡𝙚𝙩𝙚 element from index id to length 1
     localStorage.setItem("notes", JSON.stringify(notesobj));
     let state = localStorage.getItem("state");
     if (state == null) {
@@ -139,7 +139,7 @@ function deletenotes(id) {
     else {
         stateobj = JSON.parse(state);
     }
-    stateobj.splice(id, 1);//delete element from index id to length 1
+    stateobj.splice(id, 1);//𝘿𝙚𝙡𝙚𝙩𝙚  element from index id to length 1
     localStorage.setItem("state", JSON.stringify(stateobj));
     shownotes();
 
@@ -162,32 +162,32 @@ function markugt(id) {
         let cardTxt = element.getElementsByTagName("button")[1];
         if (idd == id) {
 
-            /* if (cardTxt.innerText == "important") {
+            /* if (cardTxt.innerText == "𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩") {
                 
                  cardTxt.innerText =
-                     "not important";
+                     "𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
                      element.style.background="#7bff00";
                      element.style.color="black";
  
-                 //val.innerText="not important";
+                 //val.innerText="𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
              }
              else {
  
-                 cardTxt.innerText = "important";
+                 cardTxt.innerText = "𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
                  element.style.background="white";
                  element.style.color="black";
  
              }*/
             if (arrobj[id] == 1) {
                 cardTxt.innerText =
-                    "not important";
+                    "𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
                 element.style.background = "#7bff00";
                 element.style.color = "black";
                 arrobj[id] = 0;
             }
             else {
 
-                cardTxt.innerText = "important";
+                cardTxt.innerText = "𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
                 element.style.background = "white";
                 element.style.color = "black";
                 arrobj[id] = 1;
@@ -201,18 +201,18 @@ function markugt(id) {
     //let cardTxt = element.getElementsByTagName("button")[1].innerText;
     // console.log(cardTxt);});
 
-    /*if(val.innerText=="important")
+    /*if(val.innerText=="𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩")
     {
         el.innerHTML=` 
-        <div id="flip"><button id="ugt" onclick="markugt(${id})" class="btn btn-secondary my-3">not important</button>
+        <div id="flip"><button id="ugt" onclick="markugt(${id})" class="btn btn-secondary my-3">𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩</button>
     </div>`
-        //val.innerText="not important";
+        //val.innerText="𝙉𝙤𝙩 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";
     }
     else{
 
-        el.innerHTML=`  <div id="flip"><button id="ugt" onclick="markugt(${id})" class="btn btn-danger my-3">important</button>
+        el.innerHTML=`  <div id="flip"><button id="ugt" onclick="markugt(${id})" class="btn btn-danger my-3">𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩</button>
         </div>`
-        //val.innerText="important";*/
+        //val.innerText="𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩";*/
 }
 
 
@@ -239,7 +239,7 @@ search.addEventListener("input", function () {
 /*
 Further Features:
 1. Add Title
-2. Mark a note as Important
+2. Mark a note as 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩
 3. Separate notes by user
 4. Sync and host to web server
 */
