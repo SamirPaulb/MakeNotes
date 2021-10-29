@@ -102,8 +102,8 @@ function shownotes() {
 
             //cardTxt.innerText =
             // "not important";
-            element.style.background = "#ff3300";
-            element.style.color = "white";
+            element.style.background = "#7bff00";
+            element.style.color = "black";
 
             //val.innerText="not important";
         }
@@ -166,8 +166,8 @@ function markugt(id) {
                 
                  cardTxt.innerText =
                      "not important";
-                     element.style.background="#ff3300";
-                     element.style.color="white";
+                     element.style.background="#7bff00";
+                     element.style.color="black";
  
                  //val.innerText="not important";
              }
@@ -181,8 +181,8 @@ function markugt(id) {
             if (arrobj[id] == 1) {
                 cardTxt.innerText =
                     "not important";
-                element.style.background = "#ff3300";
-                element.style.color = "white";
+                element.style.background = "#7bff00";
+                element.style.color = "black";
                 arrobj[id] = 0;
             }
             else {
