@@ -1,8 +1,8 @@
 # MakeNotes
 User can make important Note as well as save it for future reference.You can mark important as well as non important which makes it very easy to distinguish between different notes.(Html,Bootstrap,CSS,Javascript) 
 ### Click to visit the app: 
-##    https://note-sp.herokuapp.com
-##    https://samirpaul1.github.io/MakeNotes
+1. https://samirpaul1.github.io/MakeNotes
+2. https://makenotes.samirpaul.vercel.app
 
 
 
