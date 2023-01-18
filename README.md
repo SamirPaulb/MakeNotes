@@ -3,6 +3,7 @@ User can make important Note as well as save it for future reference.You can mar
 ### Click to visit the app: 
 1. https://samirpaul1.github.io/MakeNotes
 2. https://makenotes.samirpaul.vercel.app
+3. https://makenotes.pages.dev
 
 
 
